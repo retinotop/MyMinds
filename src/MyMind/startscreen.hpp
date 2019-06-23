@@ -3,10 +3,9 @@
 
 #include <QMainWindow>
 
-class StartScreen
-{
+class StartScreen : public QMainWindow {
 public:
-    StartScreen();
+    StartScreen(QWidget *parent = nullptr);
 };
 
 #endif // STARTSCREEN_HPP
