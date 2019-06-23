@@ -1,6 +1,7 @@
 #include "startscreen.hpp"
 
-StartScreen::StartScreen()
+StartScreen::StartScreen(QWidget *parent)
+    : QMainWindow(parent)
 {
 
 }
